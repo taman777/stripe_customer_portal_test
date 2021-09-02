@@ -7,7 +7,8 @@ Version 1.0     2021/9/2
 ## 設置方法
 stripe_customer_portal_test ディレクトリは名前が長いので適当なディレクトリ名に中身を設置してください。
 
-設置したディレクトリ名を config.php にURLとして書きます。
+設置したディレクトリ名を config.php にURLとして書きます。  
+（config-sample.php の中身を書き換えて config.php にリネームしてください。）  
 RETURN_URL に設定します。
 
     // Stripe 開発者→APIキー→標準キー の シークレットキーを設定
